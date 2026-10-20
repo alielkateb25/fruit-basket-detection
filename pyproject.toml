@@ -1,0 +1,23 @@
+[project]
+name = "fresh-fruit-mlops"
+version = "0.1.0"
+description = "YOLO basket detection: fruit type + freshness (MLOps)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ultralytics>=8.0",
+    "roboflow>=1.0",
+    "pandas",
+    "matplotlib",
+    "pyyaml",
+    "pillow",
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "mlflow",
+    "tqdm",
+    "streamlit",
+]
+
+[tool.uv]
+package = false

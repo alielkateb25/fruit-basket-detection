@@ -1,0 +1,12 @@
+ultralytics>=8.0
+roboflow>=1.0
+pandas
+matplotlib
+pyyaml
+pillow
+fastapi
+uvicorn[standard]
+python-multipart
+mlflow
+tqdm
+streamlit
